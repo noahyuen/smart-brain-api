@@ -6,7 +6,6 @@
   "engines": {
     "node": "14.6.0"
   },
-  "homepage": "https://noahyuen.github.io/smart-brain",
   "scripts": {
     "start": "node server.js",
     "start:dev": "nodemon server.js"
