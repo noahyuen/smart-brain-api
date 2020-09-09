@@ -8,10 +8,8 @@
   },
   "homepage": "https://noahyuen.github.io/smart-brain",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build"
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
